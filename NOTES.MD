@@ -15,4 +15,4 @@
 ## Observation
 
 Microtasks executed before macrotasks.
-processnextTick excuted before Promise microtasks.
+process.nextTick excuted before Promise microtasks.
