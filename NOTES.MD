@@ -11,3 +11,8 @@
 7. after await
 8. setTimeout 
 9. setImmediate
+
+## Observation
+
+Microtasks executed before macrotasks.
+processnextTick excuted before Promise microtasks.
