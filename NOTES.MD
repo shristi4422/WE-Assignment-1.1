@@ -12,8 +12,8 @@
 8. setTimeout 
 9. setImmediate
 
-## Observation
 
+### Actual Order
 1. sync start
 2. sync inside async fn
 3. sync end
@@ -24,7 +24,6 @@
 8. setTimeout 
 9. setImmediate
 
-### Actual Order
 
 Microtasks executed before macrotasks.
 process.nextTick excuted before Promise microtasks.
